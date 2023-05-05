@@ -1,0 +1,49 @@
+
+footer{
+ display: flex;
+ flex-direction: column;
+}
+
+.envio-banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 6vh;
+  background-color:black;
+  color: orangered;
+}
+
+#paginas{
+  font-family:'Franklin Gothic Medium';
+    font-style: italic;
+    font-weight: bolder;
+}
+#paginas:hover{
+  background-color: black;
+  border-color: chocolate;
+  color: orange;
+}
+
+#boton-footer{
+  background-color: black;
+  border-color:white;
+  color: orange;
+  margin: 1%;
+}
+#boton-footer:hover{
+  background-color: chocolate;
+  border-color:black;
+  color: aquamarine;
+}
+
+#boton-formulario{
+  margin-top: 10px; width:50%; 
+  background-color:orangered;
+  border-color: black;
+}
+#boton-formulario:hover{
+  background-color:black;
+  border-color: white;
+  color:aquamarine
+}
+
